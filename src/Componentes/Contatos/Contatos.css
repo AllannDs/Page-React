@@ -1,0 +1,67 @@
+#contatos {
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 30px
+}
+
+#letreiro h2 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(246, 161, 59);
+    font-weight: 700;
+}
+
+#letreiro p {
+    text-align: center;
+    font-size: 26px;
+    font-family: FuturaBQ;
+    font-weight: 600;
+}
+
+form {
+    text-align: left;
+    font-weight: 600;
+}
+
+form input, textarea {
+    height: 45px;
+    width: 450px;
+    max-width: 700px;
+    padding-inline: 5px;
+    color: black;
+}
+
+button {
+    width: 450px;
+    height: 60px;
+    margin-top: 2%;
+    font-family: Gotham;
+    font-size: 30px;
+    background-color: rgb(0, 159, 227);
+    color: white;
+    border: none;
+    padding: 0px 60px 0px 60px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(35, 189, 228);
+}
+
+/* Responsividade 1164 */
+
+@media screen and (max-width: 1164px) { 
+    #letreiro h2 {
+        font-size: 80px;
+    }
+
+    #letreiro p {
+        font-size: 24px;
+        max-width: 800px;
+    }
+}

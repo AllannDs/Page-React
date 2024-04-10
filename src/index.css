@@ -1,0 +1,284 @@
+@font-face {
+  font-family: [Gotham];
+  src: url("./Componentes/Fonts/GothamXNarrow-Black.otf");
+}
+
+@font-face {
+  font-family: [FuturaBQ];
+  src: url("./Componentes/Fonts/FuturaBQ-Medium.otf");
+}
+
+* {
+  font-family: Gotham;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  background-color: rgb(9, 19, 62);
+  background-image: url(./Componentes/img/Noite-azul2.png);
+  background-size: 2000px 1667px;
+  background-position-y: 400px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-inline: 20px;
+  height: 90vh;
+  border-bottom: 2px solid rgb(246, 161, 59);
+}
+
+main section:nth-child(1) {
+  width: 800px;
+}
+
+section h1:nth-child(1) {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+section h1:nth-child(2) {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+section h2:nth-child(3) {
+  font-family: FuturaBQ;
+  font-size: 26px;
+  font-weight: 400;
+  max-width: 500px;
+}
+
+#redes-sociais img {
+  width: 55px;
+  height: 55px;
+  padding: 0px 15px 0px 0px;
+  margin-top: 25px;
+}
+
+#redes-sociais img:hover {
+  width: 65px;
+  height: 65px;
+  margin-top: 15px;
+}
+
+#redes-sociais button {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(0, 159, 227) ;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 200ms linear;
+  margin-top: 25px;
+}
+
+#redes-sociais button:hover {
+  background-color: rgb(35, 189, 228);
+}
+
+#dream {
+  width: 600px;
+  height: auto;
+}
+
+/* Responsividade 1310 */
+
+@media screen and (max-width: 1310px) {
+
+  main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-inline: 50px;
+  height: 90vh;
+  }
+
+  #infos {
+    padding-left: 40px;
+  }
+
+  section h1:nth-child(1) {
+    font-size: 80px;
+    font-weight: 700;
+  }
+  
+  section h1:nth-child(2) {
+    font-size: 80px;
+    font-weight: 700;
+  }
+  
+  section h2:nth-child(3) {
+    font-family: FuturaBQ;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 350px;
+  }
+  
+}
+
+/* Responsividade 1178 */
+
+@media screen and (max-width: 1178px) {
+
+  main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-inline: 50px;
+  height: 90vh;
+  }
+
+  #infos {
+    padding-left: 40px;
+  }
+
+  section h1:nth-child(1) {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  section h1:nth-child(2) {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  section h2:nth-child(3) {
+    font-family: FuturaBQ;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 350px;
+  }
+  
+}
+
+/* Responsividade 923 */
+
+@media screen and (max-width: 923px) {
+
+  main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-inline: 50px;
+  height: 50vh;
+  }
+
+  #infos {
+    padding-left: 40px;
+  }
+
+  section h1:nth-child(1) {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  section h1:nth-child(2) {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  section h2:nth-child(3) {
+    font-family: FuturaBQ;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 350px;
+  }
+
+  #redes-sociais img {
+    width: 45px;
+    height: 45px;
+    padding: 0px 10px 0px 0px;
+    margin-top: 5px;
+  }
+  
+  #redes-sociais img:hover {
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+  }
+  
+  #redes-sociais button {
+    color: white;
+    font-size: 15px;
+    background-color: rgb(0, 159, 227) ;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms linear;
+    margin-top: 5px;
+  }
+  
+}
+
+/* Responsividade 657 */
+
+@media screen and (max-width: 657px) {
+
+  main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-inline: 50px;
+  height: 40vh;
+  }
+
+  #infos {
+    padding-left: 40px;
+  }
+
+  section h1:nth-child(1) {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  section h1:nth-child(2) {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  section h2:nth-child(3) {
+    font-family: FuturaBQ;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 350px;
+  }
+
+  #redes-sociais img {
+    width: 45px;
+    height: 45px;
+    padding: 0px 10px 0px 0px;
+    margin-top: 5px;
+  }
+  
+  #redes-sociais img:hover {
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+  }
+  
+  #redes-sociais button {
+    color: white;
+    font-size: 15px;
+    background-color: rgb(0, 159, 227) ;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms linear;
+    margin-top: 5px;
+  }
+  
+}
